@@ -11,6 +11,9 @@ module.exports = {
         kausan: ["var(--kausan)"],
         poppins: ["var(--poppins)"],
       },
+      colors: {
+        primary: "#25c486",
+      },
     },
   },
   plugins: [],
