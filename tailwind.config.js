@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         kausan: ["var(--kausan)"],
         poppins: ["var(--poppins)"],
+        openSans: ["var(--open-sans)"],
       },
       colors: {
         primary: "#25c486",
