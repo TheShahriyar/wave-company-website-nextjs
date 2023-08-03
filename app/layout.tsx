@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { kausan, openSans, poppins } from "./fonts";
+import { asap, openSans } from "./fonts";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -15,10 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${kausan.variable} ${poppins.variable} ${openSans.variable}`}
-    >
+    <html lang="en" className={`${asap.variable} ${openSans.variable}`}>
       <body>
         <Header />
         {children}

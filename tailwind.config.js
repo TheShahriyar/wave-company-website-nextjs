@@ -3,17 +3,19 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./sections/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       fontFamily: {
-        kausan: ["var(--kausan)"],
-        poppins: ["var(--poppins)"],
+        asap: ["var(--asap)"],
         openSans: ["var(--open-sans)"],
       },
       colors: {
         primary: "#25c486",
+        title: "#222222",
+        text: "#777777",
       },
     },
   },

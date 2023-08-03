@@ -23,7 +23,7 @@ const Banner = (props: bannerType) => {
     buttonText,
   } = props;
   return (
-    <div className="relative">
+    <div className="banner-section relative">
       <div className="absolute top-0 left-0 w-full h-full">
         <Image
           src={bannerImage}
@@ -41,7 +41,7 @@ const Banner = (props: bannerType) => {
           <p className="uppercase font-openSans text-base md:text-lg tracking-wider">
             {subtitle}
           </p>
-          <h1 className="uppercase font-openSans text-[28px] md:text-4xl xl:text-[52px] leading-tight font-bold mt-5 md:mt-8 xl:mt-12">
+          <h1 className="uppercase font-openSans text-[28px] md:text-4xl xl:text-[52px] xl:leading-tight text-white font-bold mt-5 md:mt-8 xl:mt-12">
             <span className="text-primary">{titleOne}</span> <br />
             {titleTwo}
           </h1>
