@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow">
       <div className="container">
-        <div className="flex justify-between items-center py-2 md:py-4 lg:py-0">
+        <div className="flex justify-between items-center py-3 md:py-4 lg:py-0">
           <Link href="/" className="w-[120px] md:w-auto">
             <Image
               src="/logo.png"
@@ -32,7 +32,7 @@ const Header = () => {
             <HiAdjustments />
           </div>
           <nav
-            className={`flex lg:justify-end absolute top-0 left-0 w-4/5 lg:w-full transition-all duration-500 lg:relative lg:space-x-6 flex-col lg:flex-row h-full lg:h-auto bg-primary lg:bg-white text-white lg:text-black p-8 lg:p-0 ${
+            className={`flex lg:justify-end absolute top-0 left-0 w-4/5 lg:w-full transition-all duration-500 lg:relative lg:space-x-6 flex-col lg:flex-row h-full lg:h-auto bg-primary lg:bg-white text-white lg:text-black p-8 lg:p-0 z-50 ${
               open ? "translate-x-0" : "-translate-x-full"
             } lg:translate-x-0`}
           >
