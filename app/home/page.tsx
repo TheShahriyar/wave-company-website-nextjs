@@ -3,6 +3,7 @@ import bannerImage from "../../public/images/slider-1.jpg";
 import FeatureSection from "@/sections/FeatureSection";
 import CallToAction from "@/components/CallToAction";
 import AboutSection from "@/sections/AboutSection";
+import ImageContentSection from "@/sections/ImageContentSection";
 
 const Homepage = () => {
   return (
@@ -31,6 +32,7 @@ const Homepage = () => {
         linkTwoText="our services"
       />
       <AboutSection />
+      <ImageContentSection />
     </>
   );
 };
