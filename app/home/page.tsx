@@ -2,6 +2,7 @@ import Banner from "@/components/Banner";
 import bannerImage from "../../public/images/slider-1.jpg";
 import FeatureSection from "@/sections/FeatureSection";
 import CallToAction from "@/components/CallToAction";
+import AboutSection from "@/sections/AboutSection";
 
 const Homepage = () => {
   return (
@@ -29,6 +30,7 @@ const Homepage = () => {
         linkOneText="view project"
         linkTwoText="our services"
       />
+      <AboutSection />
     </>
   );
 };
