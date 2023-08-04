@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import bannerImage from "../../public/images/slider-1.jpg";
 import FeatureSection from "@/sections/FeatureSection";
+import CallToAction from "@/components/CallToAction";
 
 const Homepage = () => {
   return (
@@ -18,6 +19,16 @@ const Homepage = () => {
       {/* Start Feature Section */}
       <FeatureSection />
       {/* End Feature Section */}
+
+      <CallToAction
+        title="POWERFUL, RESPONSIVE &amp; RETINA READY TEMPLATE"
+        desc="Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+            turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere
+            a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam
+            porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."
+        linkOneText="view project"
+        linkTwoText="our services"
+      />
     </>
   );
 };

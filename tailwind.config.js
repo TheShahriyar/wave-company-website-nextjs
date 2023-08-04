@@ -13,7 +13,11 @@ module.exports = {
         openSans: ["var(--open-sans)"],
       },
       colors: {
-        primary: "#25c486",
+        primary: {
+          light: "#38ef7d",
+          DEFAULT: "#25c486",
+          dark: "#11998e",
+        },
         title: "#222222",
         text: "#777777",
       },
