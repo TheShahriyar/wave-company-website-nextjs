@@ -1,9 +1,5 @@
 import TeamMember from "@/components/ TeamMember";
 import SectionTitle from "@/components/SectionTitle";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
 
 const TeamSection = () => {
   return (

@@ -1,5 +1,3 @@
-import React from "react";
-
 const SectionTitle = ({ title }: any) => {
   return (
     <div className="section-title mb-12 md:mb-20">

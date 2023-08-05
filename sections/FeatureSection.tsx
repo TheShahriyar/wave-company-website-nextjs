@@ -1,6 +1,5 @@
 import Feature from "@/components/Feature";
 import SectionTitle from "@/components/SectionTitle";
-import React from "react";
 import {
   FaBriefcase,
   FaRegPaperPlane,

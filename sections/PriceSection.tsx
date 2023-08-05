@@ -1,6 +1,5 @@
 import PriceCard from "@/components/PriceCard";
 import SectionTitle from "@/components/SectionTitle";
-import React from "react";
 
 const PriceSection = () => {
   return (

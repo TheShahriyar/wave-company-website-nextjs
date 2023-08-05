@@ -1,6 +1,5 @@
 import SectionTitle from "@/components/SectionTitle";
 import Image from "next/image";
-import React from "react";
 
 const ProjectSection = () => {
   return (
