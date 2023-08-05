@@ -4,6 +4,7 @@ import FeatureSection from "@/sections/FeatureSection";
 import CallToAction from "@/components/CallToAction";
 import AboutSection from "@/sections/AboutSection";
 import ImageContentSection from "@/sections/ImageContentSection";
+import ProjectSection from "@/sections/ProjectSection";
 
 const Homepage = () => {
   return (
@@ -33,6 +34,7 @@ const Homepage = () => {
       />
       <AboutSection />
       <ImageContentSection />
+      <ProjectSection />
     </>
   );
 };

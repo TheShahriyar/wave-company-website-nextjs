@@ -1,5 +1,4 @@
 import React from "react";
-import bgImage from "../public/images/parallax2.jpg";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const ImageContentSection = () => {
