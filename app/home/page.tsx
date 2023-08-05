@@ -5,6 +5,7 @@ import CallToAction from "@/components/CallToAction";
 import AboutSection from "@/sections/AboutSection";
 import ImageContentSection from "@/sections/ImageContentSection";
 import ProjectSection from "@/sections/ProjectSection";
+import CallToActionTwo from "@/components/CallToActionTwo";
 
 const Homepage = () => {
   return (
@@ -35,6 +36,10 @@ const Homepage = () => {
       <AboutSection />
       <ImageContentSection />
       <ProjectSection />
+      <CallToActionTwo
+        bannerImage="/images/parallax3.jpg"
+        text="We invested our hard work for people just like you that insist on a great user experience."
+      />
     </>
   );
 };
