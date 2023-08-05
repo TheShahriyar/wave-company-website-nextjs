@@ -13,7 +13,7 @@ const Header = () => {
     setOpen(!open);
   };
   return (
-    <header className="bg-white shadow">
+    <header className="bg-white shadow sticky top-0 z-50">
       <div className="container">
         <div className="flex justify-between items-center py-3 md:py-4 lg:py-0">
           <Link href="/" className="w-[120px] md:w-auto">
