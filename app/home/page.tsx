@@ -8,6 +8,7 @@ import ProjectSection from "@/sections/ProjectSection";
 import CallToActionTwo from "@/components/CallToActionTwo";
 import TeamSection from "@/sections/TeamSection";
 import TestimonialSection from "@/sections/TestimonialSection";
+import PriceSection from "@/sections/PriceSection";
 
 const Homepage = () => {
   return (
@@ -44,6 +45,7 @@ const Homepage = () => {
       />
       <TeamSection />
       <TestimonialSection />
+      <PriceSection />
     </>
   );
 };
