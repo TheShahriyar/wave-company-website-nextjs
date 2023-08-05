@@ -18,8 +18,8 @@ const PriceCard = (props: priceType) => {
     buttonLink = "#",
   } = props;
   return (
-    <div className="text-center border border-slate-100">
-      <div className="px-8 pt-14 pb-20 bg-slate-100">
+    <div className="text-center border border-primary/10">
+      <div className="px-8 pt-14 pb-20 bg-primary/10">
         <h3 className="uppercase text-2xl sm:text-3xl font-bold">{planName}</h3>
         <div className="text-xs">Plan Short Descriptions</div>
       </div>

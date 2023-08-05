@@ -9,6 +9,7 @@ import CallToActionTwo from "@/components/CallToActionTwo";
 import TeamSection from "@/sections/TeamSection";
 import TestimonialSection from "@/sections/TestimonialSection";
 import PriceSection from "@/sections/PriceSection";
+import CallToActionThree from "@/components/CallToActionThree";
 
 const Homepage = () => {
   return (
@@ -46,6 +47,7 @@ const Homepage = () => {
       <TeamSection />
       <TestimonialSection />
       <PriceSection />
+      <CallToActionThree text="What are you waiting for?" />
     </>
   );
 };
