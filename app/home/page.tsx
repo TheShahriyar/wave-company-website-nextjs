@@ -7,6 +7,7 @@ import ImageContentSection from "@/sections/ImageContentSection";
 import ProjectSection from "@/sections/ProjectSection";
 import CallToActionTwo from "@/components/CallToActionTwo";
 import TeamSection from "@/sections/TeamSection";
+import TestimonialSection from "@/sections/TestimonialSection";
 
 const Homepage = () => {
   return (
@@ -42,6 +43,7 @@ const Homepage = () => {
         text="We invested our hard work for people just like you that insist on a great user experience."
       />
       <TeamSection />
+      <TestimonialSection />
     </>
   );
 };
