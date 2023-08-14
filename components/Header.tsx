@@ -32,7 +32,7 @@ const Header = () => {
             <HiAdjustments />
           </div>
           <nav
-            className={`flex lg:justify-end font-bold absolute top-0 left-0 w-4/5 lg:w-full transition-all duration-500 lg:relative lg:space-x-6 flex-col lg:flex-row h-full lg:h-auto bg-primary lg:bg-white text-white lg:text-black p-8 lg:p-0 z-50 ${
+            className={`flex lg:justify-end font-bold fixed top-0 left-0 w-4/5 lg:w-full transition-all duration-500 lg:relative lg:space-x-6 flex-col lg:flex-row h-full lg:h-auto bg-primary lg:bg-white text-white lg:text-black p-8 lg:p-0 z-50 ${
               open ? "translate-x-0" : "-translate-x-full"
             } lg:translate-x-0`}
           >
