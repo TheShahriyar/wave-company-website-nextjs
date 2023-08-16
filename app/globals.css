@@ -43,7 +43,7 @@
   }
 
   .feature-2 {
-    @apply overflow-hidden bg-primary sm:h-[180px] pt-10 pb-10 sm:pb-0 text-center transition-all duration-500;
+    @apply overflow-hidden bg-primary sm:h-[180px] 2xl:h-[215px] pt-10 pb-10 sm:pb-0 text-center transition-all duration-500;
 
     .feature-icon {
       @apply mb-5 transition-all duration-500 text-4xl text-white;
